@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="0" failed="0" skipped="1">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-01-22T16:44:29 IST" name="Suite" finished-at="2022-01-22T16:44:30 IST" duration-ms="151">
+    <groups>
+    </groups>
+    <test started-at="2022-01-22T16:44:29 IST" name="Test" finished-at="2022-01-22T16:44:30 IST" duration-ms="151">
+      <class name="practice.SampleItestListener">
+        <test-method is-config="true" signature="configBC(java.lang.String)[pri:0, instance:practice.SampleItestListener@7e0b85f9]" started-at="2022-01-22T16:44:29 IST" name="configBC" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1642850069945" status="FAIL">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by BeforeClass on method configBC but has not been marked @Optional or defined
+in C:\Users\HP\eclipse-workspace\comcat_selenium_framework\testng.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by BeforeClass on method configBC but has not been marked @Optional or defined
+in C:\Users\HP\eclipse-workspace\comcat_selenium_framework\testng.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:270)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
+at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base/java.lang.Thread.run(Thread.java:831)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBC -->
+        <test-method is-config="true" signature="configBM()[pri:0, instance:practice.SampleItestListener@7e0b85f9]" started-at="2022-01-22T16:44:30 IST" name="configBM" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1642850070009" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method signature="aaaaa()[pri:0, instance:practice.SampleItestListener@7e0b85f9]" started-at="2022-01-22T16:44:30 IST" name="aaaaa" finished-at="2022-01-22T16:44:30 IST" duration-ms="0" status="SKIP">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by BeforeClass on method configBC but has not been marked @Optional or defined
+in C:\Users\HP\eclipse-workspace\comcat_selenium_framework\testng.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by BeforeClass on method configBC but has not been marked @Optional or defined
+in C:\Users\HP\eclipse-workspace\comcat_selenium_framework\testng.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:270)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
+at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
+at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base/java.lang.Thread.run(Thread.java:831)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aaaaa -->
+        <test-method is-config="true" signature="configAM()[pri:0, instance:practice.SampleItestListener@7e0b85f9]" started-at="2022-01-22T16:44:30 IST" name="configAM" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1642850070044" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method is-config="true" signature="configAC()[pri:0, instance:practice.SampleItestListener@7e0b85f9]" started-at="2022-01-22T16:44:30 IST" name="configAC" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1642850070052" status="SKIP">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAC -->
+      </class> <!-- practice.SampleItestListener -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
